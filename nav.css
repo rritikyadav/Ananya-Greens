@@ -1,0 +1,21 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:10vh;
+    box-sizing: border-box;
+    margin:2rem;
+}
+.navleft,.navright{
+    display:flex;
+    gap:5rem;
+}
+.nav a{
+    color:black;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.logo img{
+    width:7vw;
+    height:12vh;
+}
